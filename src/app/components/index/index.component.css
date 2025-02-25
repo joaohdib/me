@@ -48,5 +48,6 @@ p {
 .option {
     text-decoration: underline;
     font-size: 17px;
-    cursor:pointer;
+    cursor: pointer;
 }
+
