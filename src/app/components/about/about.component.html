@@ -1,6 +1,8 @@
 <div id="content">
-    <p id="back">←</p>
-    <p #title id="title">About me</p>
+    <div id="navbar">
+        <p id="back" (click)="back()">←</p>
+        <p #title id="title">About me</p>
+    </div>
     <div id="container">
         <div id="info">
             <img src="../assets/icon.png" id="icon" alt="My Profile Picture" width="200">
@@ -20,7 +22,9 @@
             <p id="experiences-title">Experiences</p>
             <div id="containers">
 
-                <div class="experience"></div>
+                <div class="experience">
+                    
+                </div>
                 <div class="experience"></div>
                 <div class="experience"></div>
                 <div class="experience"></div>
